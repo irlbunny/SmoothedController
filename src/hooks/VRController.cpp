@@ -28,7 +28,7 @@ void SmoothController(GlobalNamespace::VRController* instance) {
     static float posSmoth = 20.f - Mathf::Clamp(getSmoothedControllerConfig().PositionSmoothing.GetValue(), 0.f, 20.f);
     static float rotSmoth = 20.f - Mathf::Clamp(getSmoothedControllerConfig().RotationSmoothing.GetValue(), 0.f, 20.f);
 
-    SafePtr<SmoothedController::Wrapper> wrapperI = nullptr;
+    SafePtr<SmoothedController::Wrapper> wrapperI;
     if (wrappers.find(instance->get_node()) == wrappers.end()) {
         wrapperI = CRASH_UNLESS(il2cpp_utils::New<SmoothedController::Wrapper*>());
         wrappers[instance->get_node()] = *wrapperI;
