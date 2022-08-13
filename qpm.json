@@ -4,7 +4,7 @@
   "info": {
     "name": "Smoothed Controller",
     "id": "smoothedcontroller",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "url": null,
     "additionalData": {
       "overrideSoName": "libsmoothedcontroller.so"
@@ -13,7 +13,7 @@
   "dependencies": [
     {
       "id": "beatsaber-hook",
-      "versionRange": "^3.7.4",
+      "versionRange": "^3.10.0",
       "additionalData": {
         "useRelease": true,
         "extraFiles": [
@@ -23,28 +23,28 @@
     },
     {
       "id": "codegen",
-      "versionRange": "^0.22.0",
+      "versionRange": "^0.25.0",
       "additionalData": {
         "useRelease": true
       }
     },
     {
       "id": "custom-types",
-      "versionRange": "^0.15.9",
+      "versionRange": "^0.15.18",
       "additionalData": {
         "useRelease": true
       }
     },
     {
       "id": "questui",
-      "versionRange": "^0.13.5",
+      "versionRange": "^0.16.4",
       "additionalData": {
         "useRelease": true
       }
     },
     {
       "id": "config-utils",
-      "versionRange": "^0.7.2",
+      "versionRange": "^0.8.0",
       "additionalData": {
         "useRelease": true
       }
