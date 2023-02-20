@@ -3,7 +3,7 @@
     {
       "defines": [
         "ID=\"SmoothedController\"",
-        "VERSION=\"1.5.0\"",
+        "VERSION=\"1.5.1\"",
         "USE_CODEGEN_FIELDS",
         "__GNUC__",
         "__aarch64__"
