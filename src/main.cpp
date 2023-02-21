@@ -2,8 +2,6 @@
 #include "SmoothedController.hpp"
 #include "SmoothedControllerConfig.hpp"
 
-DEFINE_CONFIG(SmoothedControllerConfig);
-
 Logger& getLogger() {
     static Logger* logger = new Logger(modInfo, LoggerOptions(false, true));
     return *logger;
