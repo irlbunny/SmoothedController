@@ -4,8 +4,8 @@
   "id": "smoothedcontroller",
   "author": "Kinsi55",
   "porter": "Kaitlyn",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "packageId": "com.beatgames.beatsaber",
-  "packageVersion": "1.27.0_3631150051",
+  "packageVersion": "1.28.0_4124311467",
   "description": "Smoothes your Controller position while in menus to make it less shaky, making the UI easier to use, etc."
 }
