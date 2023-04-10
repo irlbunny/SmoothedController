@@ -3,7 +3,7 @@
     {
       "defines": [
         "ID=\"SmoothedController\"",
-        "VERSION=\"1.5.1\"",
+        "VERSION=\"1.5.2\"",
         "USE_CODEGEN_FIELDS",
         "__GNUC__",
         "__aarch64__"
@@ -20,6 +20,7 @@
         "${default}"
       ],
       "name": "Quest",
+      "compileCommands": "${workspaceFolder}/build/compile_commands.json",
       "cStandard": "c11",
       "cppStandard": "c++20",
       "intelliSenseMode": "clang-x64"

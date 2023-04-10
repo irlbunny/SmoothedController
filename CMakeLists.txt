@@ -10,6 +10,15 @@ project(${COMPILE_ID})
 set(SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
 set(INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
+# Enable link time optimization
+# In my experience, this can be highly unstable but it nets a huge size optimization and likely performance
+# However, the instability was seen using Android.mk/ndk-build builds. With Ninja + CMake, this problem seems to have been solved.
+# As always, test thoroughly
+# - Fern
+set(CMAKE_INTERPROCEDURAL_OPTIMIZATION TRUE)
+
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 add_compile_options(-frtti -fexceptions)
 add_compile_options(-O3)
 
